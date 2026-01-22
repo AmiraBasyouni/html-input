@@ -1,0 +1,41 @@
+{
+  "name": "html-input",
+  "version": "0.1.0",
+  "description": "visualize and learn about HTML inputs ",
+  "keywords": [
+    "HTML"
+  ],
+  "homepage": "https://github.com/AmiraBasyouni/html-input",
+  "bugs": {
+    "url": "https://github.com/AmiraBasyouni/html-input/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmiraBasyouni/html-input.git"
+  },
+  "license": "MIT",
+  "author": "Amira Basyouni",
+  "type": "module",
+  "scripts": {
+    "predev": "rimraf .parcel-cache dist",
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "vitest",
+    "lint": "npx eslint . --fix",
+    "format": "npx prettier . --write"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.0.0",
+    "parcel": "^2.16.3",
+    "prettier": "3.8.1",
+    "rimraf": "^6.1.2",
+    "vitest": "^4.0.17"
+  }
+}
